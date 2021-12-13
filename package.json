@@ -21,7 +21,7 @@
     "fs-extra": "^4.0.2",
     "jsdom": "^11.3.0",
     "object-hash": "1.2.0",
-    "request": "^2.87.0",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.5",
     "swagger-ui-dist": "^3.43.0",
     "yamljs": "^0.3.0"
