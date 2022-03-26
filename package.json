@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
     "request": "^2.87.0",
     "request-promise-native": "^1.0.5",
     "swagger-ui-dist": "^3.43.0",
-    "yamljs": "^0.3.0"
-  }
+    "yamljs": "^0.3.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
